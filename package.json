@@ -2,8 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "mern stack project",
-  "main": "server.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
